@@ -1,0 +1,71 @@
+body {
+  background-color: #7B1FA2;
+  font-family: 'Indie Flower', cursive;
+}
+
+#container {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.card {
+  border: 2px solid black;
+  width: 50%;
+  background-color: #0288D1;
+}
+
+#title {
+  text-align: center;
+}
+
+#main-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: block;
+  margin: 0 auto;
+}
+
+#overview {
+  text-align: center;
+  background-color: #8BC34A;
+  margin-bottom: 0;
+  padding: 5px;
+  border-top-width: 2px;
+  border-top-color: black;
+  border-top-style: solid;
+}
+
+.shout {
+  font-weight: bold;
+}
+
+.fancy {
+  font-style: italic;
+}
+
+.details {
+  width: 50%;
+  background-color:#03A9F4;
+  border-width: 2px 2px 2px 0;
+  border-style: solid;
+  border-color: black;
+}
+
+#episodes-title, #links-title {
+  text-align: center;
+}
+
+ol, ul {
+  text-align: center;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+ol {
+  margin-bottom: 100px;
+}
